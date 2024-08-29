@@ -1,0 +1,12 @@
+1. <function_name>
+
+2. a7 = <hex_value>; represents syscall number <syscall_number>
+
+3. Previous CPU mode: <mode>; extracted from $sstatus
+
+4. Assembly instruction at `sepc`: <instruction>; related register: <register>
+
+5. Kernel crash: Address `0x0` not mapped in kernel address space; confirmed by `scause` indicating a page-fault.
+
+6. Binary: <binary_name>; PID: <pid>
+
